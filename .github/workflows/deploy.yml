@@ -15,6 +15,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }} # User of the server you want to ssh into
      
           script: |
+            rm -rf test
             mkdir test 
             cd test 
             git clone git@github.com:sourcecodeguy1/ci-cd-to-vultr.git 
