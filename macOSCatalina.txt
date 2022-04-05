@@ -1,1 +1,2 @@
 Added new file from macOS Catalina.
+I removed the "test" folder from the server.
